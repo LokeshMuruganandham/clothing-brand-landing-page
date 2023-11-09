@@ -15,7 +15,7 @@ body{
 .header{
 
     background-color: aqua;
-    background-image: url('./Assets/Images/karsten-winegeart-UicC_FIozPc-unsplash.jpg');
+    background-image: url('./Assets/karsten-winegeart-UicC_FIozPc-unsplash.jpg');
     background-size: cover;
     background-position: center;
     color: #303030;
@@ -108,9 +108,9 @@ body{
     text-align: center;
 }
 
-.product-card:hover{
+/* .product-card:hover{
     transform: scale(1.01);
-}
+} */
 /* CSS for the product image */
 .product-image img {
     width: 100%;
