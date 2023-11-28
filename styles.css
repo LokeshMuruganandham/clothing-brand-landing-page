@@ -26,7 +26,6 @@ body{
 .nav{
     height: 65px;
     padding: 10px 50px;
-    /* background-color: bisque; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -82,7 +81,6 @@ body{
 }
 .collection{
     background-color: #f7f5f5;
-    /* background-color: rgb(255, 0, 0); */
 }
 .collection h2{
     font-size: 30px;
@@ -102,38 +100,27 @@ body{
 /* CSS for the product card container */
 .product-card {
     width: 300px;
-    /* border: 1px solid #ddd; */
     border-radius: 5px;
     margin: 10px;
-    /* background-color: #fffdfd; */
     text-align: center;
 }
 
-/* .product-card:hover{
-    transform: scale(1.01);
-} */
-/* CSS for the product image */
+/*Product image */
 .product-image img {
     width: 100%;
 }
 
-/* CSS for the product title */
+/*Product title */
 .product-title {
     padding: 5px;
 }
 
-/* CSS for the product description */
-/* .product-description {
-    padding: 10px;
-} */
-
-/* CSS for the product price */
+/*Product price */
 .product-price {
     font-weight: bold;
-    /* padding: 10px; */
 }
 
-/* CSS for the "Add to Cart" button */
+/*"Add to Cart" button */
 .add-to-cart {
     font-weight: bold;
     text-align: center;
@@ -144,8 +131,6 @@ body{
 }
 .button{
     border: 1px solid #303030 ;
-    /* background-color: #ff4d4d; */
-    /* color: #ffff; */
     transition: background-color 0.3s;
 }
 
@@ -172,7 +157,6 @@ body{
 }
 
 .copy-rights{
-    /* background-color: #cfcece; */
     padding: 30px;
     font-size: 15px;
 }
