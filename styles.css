@@ -15,20 +15,31 @@ body{
 
 /* Header, Navbar and Hero Section */
 
+
 .header{
     background-image: url('./Assets/HeroImages/HeroImage.jpg');
     background-size: cover;
     background-position: center;
+    position: relative;
     color: #303030;
     padding: 0px;
 }
 
+.overlay{
+   
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+
 .nav{
+    color: #000000;
     height: 65px;
     padding: 10px 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 2;
 }
 
 .logo{
@@ -46,12 +57,17 @@ body{
 
 .nav a{
     text-decoration: none;
-    color: #303030;
+    color: #000000;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+    color: #000000;
 }
 
 .hero{
     
-    color: #ffffff;
+    color: #dfdfdf;
     text-align: center;
     padding: 225px 0;
 }
